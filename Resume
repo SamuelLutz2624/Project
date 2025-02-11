@@ -1,0 +1,67 @@
+html_code = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f4f4f4;
+            font-weight: bold;
+        }
+        td {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Resume</h1>
+
+    <table>
+        <tr>
+            <th>Skills</th>
+            <td>HTML, CSS, JavaScript, Python, Teamwork, Communication</td>
+        </tr>
+        <tr>
+            <th>Education</th>
+            <td>Current Grade: 12, High School XYZ</td>
+        </tr>
+        <tr>
+            <th>Extracurricular Activities</th>
+            <td>Robotics Club, Debate Team, Volunteer at Local Shelter</td>
+        </tr>
+        <tr>
+            <th>Future Goals</th>
+            <td>Pursue a degree in Computer Science, Work on software development projects, Contribute to open-source communities</td>
+        </tr>
+    </table>
+
+</body>
+</html>
+"""
+
+# Save to an HTML file
+with open("my_resume.html", "w") as file:
+    file.write(html_code)
+
+print("HTML resume has been created.")
