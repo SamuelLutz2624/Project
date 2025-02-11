@@ -1,0 +1,45 @@
+html_code = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Projects</title>
+</head>
+<body>
+    <h1>My Projects</h1>
+
+    <h2>Project 1: Web Development Portfolio</h2>
+    <p>This project involved creating a personal portfolio website showcasing my web development skills.</p>
+    <ul>
+        <li><strong>Tools Used:</strong> HTML, CSS, JavaScript, Bootstrap</li>
+        <li><strong>Purpose:</strong> Display web development projects and skills</li>
+        <li><strong>Outcome:</strong> Fully functional personal portfolio website</li>
+    </ul>
+    <a href="https://myportfolio.com" target="_blank">View Project Demo</a>
+
+    <h2>Project 2: Machine Learning Model for Predicting House Prices</h2>
+    <p>This project involved using machine learning to predict house prices based on various features.</p>
+    <ul>
+        <li><strong>Tools Used:</strong> Python, Pandas, Scikit-learn</li>
+        <li><strong>Purpose:</strong> Predict house prices from historical data</li>
+        <li><strong>Outcome:</strong> A predictive model with 85% accuracy</li>
+    </ul>
+    <a href="https://github.com/myusername/house-price-predictor" target="_blank">View Project on GitHub</a>
+
+    <h2>Project 3: Mobile App for Fitness Tracking</h2>
+    <p>This project involved developing a mobile app to track fitness activities and goals.</p>
+    <ul>
+        <li><strong>Tools Used:</strong> React Native, Firebase, JavaScript</li>
+        <li><strong>Purpose:</strong> Help users track their fitness progress</li>
+        <li><strong>Outcome:</strong> A mobile app available on Google Play Store</li>
+    </ul>
+    <a href="https://play.google.com/store/apps/details?id=com.myfitnessapp" target="_blank">View App on Play Store</a>
+</body>
+</html>
+"""
+
+# Save to an HTML file
+with open("my_projects.html", "w") as file:
+    file.write(html_code)
+
+print("HTML page with project details has been created.")
